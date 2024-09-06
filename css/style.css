@@ -472,3 +472,68 @@ header {
 }
 
 /* Skills-End */
+
+/* Portofolio-Start */
+.container-porto {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cbg2);
+}
+
+.wrapper-porto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.text-porto {
+    width: 200px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid var(--cfont-blue);
+    color: var(--cfont);
+    text-align: center;
+}
+
+.wrapper-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card-porto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cbg);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+.card-porto:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+}
+
+.card-porto p {
+    margin-top: 15px;
+    color: var(--cfont);
+    font-size: 14px;
+}
+
+.img-porto {
+    width: 350px;
+}
+
+/* Portofolio-End */
