@@ -364,4 +364,27 @@ header {
 }
 /* END-HOME */
 
+/* Start-About */
+.container-about {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cbg2);
+}
 
+.wrapper-about {
+    display: flex;
+    width: 80%;
+    height: 400px;
+    margin-left: 50px;
+}
+
+.text-about {
+    width: 50%;
+    color: var(--cfont);
+    text-align: justify;
+    margin: 90px;
+}
+
+/* End-About */
