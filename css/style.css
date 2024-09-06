@@ -388,3 +388,87 @@ header {
 }
 
 /* End-About */
+
+/* Skills-Start */
+.container-skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.text-skill {
+    width: 200px;
+    color: var(--cfont);
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid var(--cfont-blue);
+    text-align: center;
+}
+
+.img-skill {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.containerSkill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-img {
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.skill-img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card-skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cbg2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.card-skill img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.card-skill p {
+    color: var(--cfont);
+    font-size: 14px;
+}
+
+/* Skills-End */
